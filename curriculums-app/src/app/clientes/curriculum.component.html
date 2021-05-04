@@ -1,0 +1,97 @@
+<br><hr>
+  <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+          <div class="row">
+              <div class="col-md-6 img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvzOpl3-kqfNbPcA_u_qEZcSuvu5Je4Ce_FkTMMjxhB-J1wWin-Q"  alt="" class="img-rounded">
+              </div>
+              <div class="col-md-6 details">
+                <blockquote>
+                  <h5></h5>
+                  <small><cite title="Source Title">Curriculum Vitae <i class="icon-map-marker"></i></cite></small>
+                </blockquote>                          
+                 <p ><b>{{ clientes[0].nombre}}</b><br>
+                  <b>{{ clientes[0].apellido}}</b><br>
+                  <b>{{ clientes[0].email}}</b><br>
+                 </p><hr>
+                 
+            </div>    
+      </div>
+      <hr>
+      <!--- \\\\\\\Post-->
+      <div class="card gedf-card">
+        <div class="card-header">
+            <div class="d-flex  align-items-center">
+                <div class="d-flex  align-items-center">                          
+                    <div >
+                        <div class="h5 m-0">EXPERIENCIAS LABORALES </div>
+                        
+                        <div class="h7 text-muted"> </div>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="card-body">
+          <table class="table">
+            <tbody>
+
+              <tr *ngFor=" let exp of experiencias">
+               <td><a href="#">{{exp.empresa}}</a> </td>
+               <td>{{exp.cargo}} </td>
+               <td>{{exp.descripcion}} </td>               
+               
+              
+             </tbody>
+          </table>
+        </div>
+
+    </div>
+    <!-- Post /////-->
+
+
+<br>
+      <!--- \\\\\\\Post-->
+  <div class="card gedf-card">
+    <div class="card-header">
+        <div class="d-flex  align-items-center">
+            <div class="d-flex  align-items-center">                          
+                <div >
+                    <div class="h5 m-0"></div>
+                    <div class="h7 text-muted"></div>
+                </div>
+            </div>
+            <div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="card-body">
+   <table class="table">
+     <tbody>
+       <tr>
+         <th>Habilidad</th>
+         <th>Nivel</th>
+         
+         
+       </tr>
+       <tr>
+        <td>JAVA </td>
+        <td> 80%</td>
+       
+      </tr>
+       
+      </tbody>
+   </table>
+    </div>
+
+</div>
+<!-- Post /////-->
+      <div class="col-sm-2"></div>
+      <br>
+  </div>
